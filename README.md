@@ -1,12 +1,11 @@
-#### NAME: PAVANA.G
-#### REFERENCE NUMBER: 212222230105
-# EXPERIMENT-05 INTERFACING A 4X4 MATRIX KEYPAD AND DISPLAY THE OUTPUT ON LCD
 
-## Aim: 
+### EXPERIMENT-05 INTERFACING A 4X4 MATRIX KEYPAD AND DISPLAY THE OUTPUT ON LCD
+### DATE:
+#### Aim: 
 To Interface a 4X4 matrix keypad and show the output on 16X2 LCD display to ARM controller , and simulate it in Proteus
-## Components required: 
+#### Components required: 
 STM32 CUBE IDE, Proteus 8 simulator .
-## Theory:
+#### Theory:
 
 ![image](https://github.com/vasanthkumarch/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/36288975/2a4a795e-1674-4329-ae07-3f5e8d5073e2)
 
@@ -26,7 +25,7 @@ Pin Number	Pin Name	Description
 4×4 Matrix Keypad Module Hardware Overview
 These Keypad modules are made of thin, flexible membrane material. The 4 x4 keypad module consists of 16 keys, these Keys are organized in a matrix of rows and columns. All these switches are connected to each other with a conductive trace. Normally there is no connection between rows and columns. When we will press a key, then a row and a column make contact.
 
- ## LCD 16X2 
+ #### LCD 16X2 
    16×2 LCD is named so because; it has 16 Columns and 2 Rows. There are a lot of combinations available like,
    8×1, 8×2, 10×2, 16×1, etc. But the most used one is the 16*2 LCD, hence we are using it here.
 
@@ -124,7 +123,7 @@ C2
 
 Jump to second line, position 2
  
-## Procedure:
+#### Procedure:
  1. click on STM 32 CUBE IDE, the following screen will appear 
  
 
@@ -175,7 +174,7 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 
  
 
-## STM 32 CUBE PROGRAM :
+#### STM 32 CUBE PROGRAM :
 
 ```
 
@@ -464,13 +463,12 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 ```
 
-## Output screen shots of proteus  :
+#### Output screen shots of proteus  :
  ![image](https://github.com/Pranav-AJ/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/118904526/833c0a49-4358-4f45-a8b4-d1f35b60c9f2)
 
- 
- ## CIRCUIT DIAGRAM : 
+#### CIRCUIT DIAGRAM : 
  ![image](https://github.com/Pranav-AJ/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/118904526/5c2d88b3-6cfa-4c3d-8d01-768d9c3e442f)
 
  
-## Result :
+#### Result :
 Interfacing a 4x4 keypad with ARM microcontroller are simulated in proteus and the results are verified.
